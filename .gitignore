@@ -1,0 +1,67 @@
+# Carpeta de salida del compilador (binarios y ejecutables)
+bin/
+obj/
+
+# Carpetas de paquetes NuGet
+packages/
+
+# Carpetas de herramientas NuGet
+# En algunos proyectos más antiguos, se pueden utilizar carpetas de herramientas en lugar de paquetes
+# Si estás usando NuGet 5+ y .NET Core/.NET 5+, estas carpetas no se utilizan
+# Remove if not applicable
+tools/
+
+# Archivos temporales
+[Tt]emp/
+[Tt]est[Rr]esult[Cc]ache/
+[Bb]uild[Ll]og.*
+
+# Archivos de usuario de Visual Studio
+*.[Uu]ser
+*.[Ss]uo
+
+# Carpeta de caché de ReSharper
+_ReSharper*/
+
+# Carpeta de caché de Rider
+.idea/
+
+# Carpeta de caché de Visual Studio Code
+.vscode/
+
+# Carpetas de archivos de respaldo y desechos
+*.[Bb]ak
+*.[Tt]mp
+
+# Archivos de registro de Visual Studio
+*.log
+
+# Carpetas de salida de proyectos
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb][Ii][Nn]/
+[Oo][Bb][Jj]/
+[Ll][Oo][Gg][Ss]/
+[Ll][Ii][Bb][Ss]/
+
+# Archivos generados por Visual Studio
+*.user
+*.suo
+*.sln.docstates
+
+# Carpeta de caché de ReSharper/Rider
+_ReSharper*/
+.idea/
+
+# Carpeta de caché de Rider
+.idea/
+
+# Carpeta de caché de Visual Studio Code
+.vscode/
+
+#Carpeta vs
+.vs/
