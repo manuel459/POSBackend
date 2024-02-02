@@ -65,3 +65,6 @@ _ReSharper*/
 
 #Carpeta vs
 .vs/
+
+#APPSETTIng
+.json
