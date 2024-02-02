@@ -7,6 +7,7 @@ namespace POS.Infrastructure.Extensions
 {
     public static class InjectionExtensions
     {
+        //Metodo de injection
         public static IServiceCollection AddInjectionDependency(this IServiceCollection services, IConfiguration configuration) {
 
             var assenbly = typeof(POSContext).Assembly.FullName;
