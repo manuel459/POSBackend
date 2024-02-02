@@ -15,7 +15,6 @@ namespace POS.Infrastructure.Extensions
                options.UseSqlServer(configuration.GetConnectionString("POSConnection"), b => b.MigrationsAssembly(assenbly)), ServiceLifetime.Transient);
 
             return services;
-        
         }
     }
 }
