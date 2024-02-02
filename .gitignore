@@ -67,4 +67,5 @@ _ReSharper*/
 .vs/
 
 #APPSETTIng
-*.json
+appsettings.Development.json
+appsettings.json
